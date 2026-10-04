@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>label tag and placeholder attributes</title>
+</head>
+<body>
+    <form>
+        <!--Classical approach (RECOMMENDED)-->
+        <label for="Username">Username</label>
+        <input type="text" placeholder="Enter Username" id="Username"/>
+        
+        <label for="password">password</label>
+        <input type="password" placeholder="Enter password" id="password">
+        
+        <br>
+
+        <!--normal approach-->
+        <label> <!--label element connects a caption with box-->
+        Username <input type="text" placeholder="Enter Username"/> 
+        </label>
+
+        <label> 
+            Password <input type="password" placeholder="Enter password"/>
+        </label>
+    </form>
+</body>
+</html>
